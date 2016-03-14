@@ -78,6 +78,9 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+  .item {
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -209,22 +212,22 @@ nav a:hover {
 }
 
 .macaron-gallery-h2 {
-  margin: 60px 0 30px 0;
+  margin: 60px 0 50px -15px;
   letter-spacing: 2px;
   color: rgb(65, 65, 63);
   text-align: center;
 }
 
-p.img-title {
+/*p.img-title {
   text-align: center;
   font-size: 1.3em;
   padding-top: 10px;
-}
+}*/
 
-#speciaux-row {
+/*#speciaux-row {
   margin-top: 70px;
   margin-bottom: 50px;
-}
+}*/
 
 .stores {
   width: 85%;
@@ -308,6 +311,7 @@ li a:link {
 
 #le-spec-below-text {
   text-align: center;
+  margin-top: 30px;
 }
 
 .details-email {
@@ -320,4 +324,41 @@ li a:link {
 
 .request-info input[type="submit"] {
   margin-left: 30px !important;
+}
+
+.item {
+  display: inline-block;
+}
+
+.item img {
+  width: 250px;
+  border-radius: 5px;
+}
+
+#decores .item {
+  margin-bottom: 10px;
+}
+
+#decores .item img {
+  width: 280px;
+}
+
+#classiques, #speciaux {
+  width: 850px;
+  margin: 0 auto;
+}
+
+#classiques .row, #speciaux .row {
+  margin-bottom: 10px;
+}
+
+#classiques .item, #speciaux .item {
+  text-align: center;
+}
+
+#classiques .item p, #speciaux .item p {
+  margin: 10px 0;
+  color: #4D5454;
+  /*text-align: center;*/
+  width: 200px;
 }
