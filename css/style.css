@@ -255,11 +255,15 @@ li a:link {
 }
 
 .press-list .row {
-  margin-bottom: 20px;
+  /*position: relative;*/
+  margin-bottom: 30px;
 }
 
 .press-list img {
   border-radius: 16px;
+  margin-top: 20px;
+  /*position: relative;*/
+  /*top: 15px;*/
 }
 
 #our-history-img img {
@@ -361,4 +365,12 @@ li a:link {
   color: #4D5454;
   /*text-align: center;*/
   width: 200px;
+}
+
+.buzz-new-year {
+  /*position: absolute;*/
+  /*top:20px;*/
+  /*left: 10px;*/
+  /*position: absolute;*/
+  /*top: 25px;*/
 }
