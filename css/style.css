@@ -367,6 +367,10 @@ li a:link {
   width: 200px;
 }
 
+#classiques .item img.tall, #speciaux .item img.tall {
+  height: 190px;
+}
+
 .buzz-new-year {
   /*position: absolute;*/
   /*top:20px;*/
